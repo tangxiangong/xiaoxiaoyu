@@ -12,7 +12,7 @@ menu:
    主页: / || fas fa-home
    归档: /archives/ || fas fa-archive
    说说: /shuoshuo/ || fas fa-comment
-   追番: /bangumis/ || iconfont icon-bilibili
+   追番: /bangumis/ || fab fa-bilibili
   #  学术主页: https://tangxiangong.me/ || fas fa-user-graduate 
   #  标签: /tags/ || fas fa-tags
   #  类别: /categories/ || fas fa-folder-open
