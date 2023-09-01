@@ -12,6 +12,7 @@ menu:
    主页: / || fas fa-home
    归档: /archives/ || fas fa-archive
    说说: /shuoshuo/ || fas fa-comment
+   追番: /bangumis/ || iconfont icon-bilibili
   #  学术主页: https://tangxiangong.me/ || fas fa-user-graduate 
   #  标签: /tags/ || fas fa-tags
   #  类别: /categories/ || fas fa-folder-open
@@ -43,6 +44,13 @@ social:
 
 # Favicon（網站圖標）
 favicon: /img/favicon.png
+
+# 哔哩哔哩追番
+# bangumi:
+#   enable: true
+#   vmid: 254144429
+#   title: "追番列表"
+#   quote: "生命不息, 追番不止"
 
 # Avatar (頭像)
 avatar:
@@ -231,7 +239,7 @@ aside:
     description:
     button:
       enable: true
-      icon: 
+      icon: iconfont icon-googlescholar
       text: 学术主页
       link: https://tangxiangong.me/
   card_announcement:
@@ -835,14 +843,14 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: false
+  enable: true
   exclude:
     # - xxxx
     # - xxxx
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: false
+  enable: true
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -905,8 +913,11 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4231645_9peg4be6p1j.js">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
+    - <div class="aplayer no-destroy" data-id="466329834" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-order="random" data-mini="true"> </div>
+    # https://music.163.com/playlist?id=466329834&userid=333680724
     # - <script src="xxxx"></script>
 
 # Artitalk
