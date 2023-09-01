@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 保持可爱
-subtitle: '小雨的个人空间'
+title: 小雨的空间
+subtitle: '保持可爱'
 description: ''
 keywords:
 author: 小雨
@@ -69,6 +69,11 @@ index_generator:
 default_category: uncategorized
 category_map:
 tag_map:
+
+algolia:
+  applicationID: '5I908OUMWD'
+  apiKey: 'a7e9103646931c4a2bd6ee12647b77eb'
+  indexName: 'xiaoxiaoyu'
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
