@@ -16,6 +16,7 @@
     "hexo-algolia": "^1.3.2",
     "hexo-bilibili-bangumi": "^1.8.8",
     "hexo-butterfly-artitalk": "^1.0.4",
+    "hexo-electric-clock": "^1.1.0",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-index": "^3.0.0",
