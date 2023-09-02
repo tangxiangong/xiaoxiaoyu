@@ -95,6 +95,7 @@ algolia:
   applicationID: '5I908OUMWD'
   apiKey: 'a7e9103646931c4a2bd6ee12647b77eb'
   indexName: 'xiaoxiaoyu'
+  adminApiKey: '881d13fe0244e203e8576b503394bb78'
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
